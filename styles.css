@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: 2px solid red;
 }
 
 body {
@@ -35,7 +36,7 @@ ul {
 
 .content-top {
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     padding: 100px 200px 100px 200px;
     gap: 50px
