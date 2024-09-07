@@ -45,7 +45,8 @@ ul {
     height: 200px;
     width: 700px;
     background-color: grey;
-    padding: 100px
+    padding: 100px;
+    text-align: center;
 }
 
 h1 {
