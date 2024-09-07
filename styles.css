@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Roboto', Verdana, sans-serif
 
 }
 /* Header Styling */
@@ -34,12 +34,13 @@ ul {
 
 /* Content Top Styling */
 
-.content-top {
+.content-one {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #1F2937;
     padding: 100px 200px 100px 200px;
-    gap: 50px
+    gap: 50px;
 }
 
 .top-right {
