@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: 2px solid red;
 }
 
 body {
@@ -83,7 +82,7 @@ button {
 }
 
 .content-two-title {
-    padding: 30px;
+    padding: 50px;
 }
 
 .gallery {
@@ -91,10 +90,16 @@ button {
     gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .gallery img {
     width: 150px;
-    height: auto;
+    height: 150px;
     border-radius: 20px;
+}
+
+.gallery-container p {
+    color: black;
+    text-align: center;
 }
