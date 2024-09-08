@@ -31,6 +31,16 @@ ul {
     gap: 20px;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: orange;
+}
+
 /* Content One Styling */
 
 .content-one {
@@ -69,7 +79,13 @@ button {
     color: #F9FAF8;
     padding: 10px 20px 10px 20px;
     font-size: medium;
+    border: none;
     border-radius: 10px;
+    transition: background-color 0.5s ease
+}
+
+button:hover {
+    background-color: orange;
 }
 
 /* Content Two Styling */
@@ -113,6 +129,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
     padding: 250px;
 }
 
@@ -122,7 +139,7 @@ button {
     font-size: 36px;
     font-style: italic;
     justify-content: center;
-    color: #E5E7EB;
+    color: #E5E7EB
 }
 
 .content-three h3 {
