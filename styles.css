@@ -32,7 +32,7 @@ ul {
     gap: 20px;
 }
 
-/* Content Top Styling */
+/* Content One Styling */
 
 .content-one {
     display: flex;
@@ -72,3 +72,8 @@ button {
     font-size: medium;
 }
 
+/* Content Two Styling */
+
+#content-two-header {
+    text-align: center;
+}
