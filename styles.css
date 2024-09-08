@@ -103,3 +103,25 @@ button {
     color: black;
     text-align: center;
 }
+
+/* Content Two Styling */
+
+.content-three {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 100px;
+}
+
+.content-three p {
+    display: flex;
+    color: black;
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+}
+
+.content-three h3 {
+    display: flex;
+    justify-content: flex-end;
+}
