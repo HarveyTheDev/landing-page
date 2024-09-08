@@ -121,7 +121,6 @@ button:active {
     width: 200px;
     height: 200px;
     border-radius: 20px;
-    border: 5px solid rgb(230, 97, 8);
 }
 
 .gallery-container p {
@@ -129,7 +128,7 @@ button:active {
     text-align: center;
 }
 
-/* Content Two Styling */
+/* Content Three Styling */
 
 .content-three {
     display: flex;
