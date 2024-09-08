@@ -74,18 +74,24 @@ p {
     padding-bottom: 10px;
 }
 
-button {
+.content-one button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 10px 20px 10px 20px;
     font-size: medium;
     border: none;
     border-radius: 10px;
-    transition: background-color 0.5s ease
+    transition: background-color 0.5s ease;
+    box-shadow: 0 4px #817f7f;
 }
 
 button:hover {
     background-color: orange;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0 3px #454343;
 }
 
 /* Content Two Styling */
