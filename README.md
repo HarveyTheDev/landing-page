@@ -7,4 +7,6 @@ I don't actually expect anyone to read this, but if you're interested, this is m
 
 When you compare this landing page to my first project (Odin Recipes), it shows just how far I've come in a relatively short period of time.
 
+Please note, this project is not yet optimized for mobile devices. 
+
 Next stop, JavaScript. 
