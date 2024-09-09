@@ -76,7 +76,7 @@ h1 {
     padding-bottom: 10px;
 }
 
-.content-one button {
+.button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 10px 20px 10px 20px;
@@ -87,11 +87,11 @@ h1 {
     box-shadow: 0 4px #817f7f;
 }
 
-button:hover {
+.button:hover {
     background-color: rgb(230, 97, 8);
 }
 
-button:active {
+.button:active {
     transform: translateY(5px);
     box-shadow: 0 3px #454343;
 }
@@ -172,6 +172,6 @@ button:active {
     height: 100px;
     width: 800px;
     border-radius: 20px;
-    background-color: #3882F6;
+    background-color: #1F2937;
     color: white;
 }
