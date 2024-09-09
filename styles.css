@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: 2px solid red;
 }
 
 body {
@@ -68,7 +69,7 @@ h1 {
     padding-bottom: 10px;
 }
 
-p {
+.content-one p {
     color:#E5E7EB;
     font-size: 18px;
     text-align: start;
@@ -154,4 +155,23 @@ button:active {
     display: flex;
     justify-content: flex-end;
     color: #E5E7EB;
+}
+
+/* Content Four Styling */
+
+.content-four {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 800px;
+    border-radius: 20px;
+    background-color: #3882F6;
+    color: white;
 }
