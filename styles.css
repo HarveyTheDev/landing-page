@@ -139,6 +139,7 @@ h1 {
     background-attachment: fixed;
     background-size: cover;
     padding: 250px;
+    border-bottom: 5px solid rgb(230, 97, 8);
 }
 
 .content-three p {
@@ -162,13 +163,14 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 100px;
+    border-bottom: 5px solid rgb(230, 97, 8);
 }
 
 .action-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
+    height: 150px;
     width: 800px;
     border-radius: 20px;
     background-color: #1F2937;
